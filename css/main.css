@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------RESET ENDS-----------*/
+
+/*
+@font-face {
+    font-family: Retroica;
+    src: url('fonts/Retroica.ttf');
+}
+*/
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.container{
+    /* positioning */
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    position: relative;
+    align-self: center;
+    z-index: 100;
+    width: 100%;
+
+    /* font styling */
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+    /* grid stuff */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 50px 1fr;
+}
+
+.header{
+    font-size: 500%;
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.element{
+    font-size: 300%;
+    align-self: center;
+}
+
+.canvas{
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#canvas1 {
+    z-index: 50;
+}
+
+#canvas2 {
+    z-index: 49;
+}
+
+#canvas3 {
+    z-index: 49;
+}
+
+#canvas4 {
+    z-index: 49;
+}
+
+#canvas5 {
+    z-index: 49;
+}
+
+#bg_image{
+    position: absolute;
+    z-index: 75;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+    opacity: 100%;
+}
