@@ -2,32 +2,64 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/flower_icon.jpeg">
     <meta charset="UTF-8">
     <title>Arno's Website</title>
-    
 </head>
 <body>
-    <!-- TO ADD
-            -Exercises box with link to 1-2-3
-            -Semester Projects
-            -Reflections 1-2-3-4
-            -Presentation  -->
 
-
-    <div class="container">
-        <div class="header">Arno's Website</div>
-        <div class="element">Exercise</div>
-        <div class="element">Projects</div>
-        <div class="element">Reflections</div>
-        <div class="element">Presentation</div>
+    <div class="container" id="welcome_grid">
+        <div class="header">ARNO'S WEBSITE</div>
+        <div id="exercise_button">exercise</div>
+        <div class="element" id="projects_button">project</div>
+        <div class="element" id="reflections_button">reflections</div>
+        <div class="element" id="presentation_button">presentation</div>
     </div>
-    <img src="images/particles.jpeg" id="bg_image">
+
+    <div class="container" id="exercise_grid">
+        <div class="go_back">go back</div>
+        <div class="element">exercise 1</div>
+        <div class="element">exercise 2</div>
+        <div class="element">exercise 3</div>
+        <div class="element">exercise 4</div>
+        <div class="element">exercise 5</div>
+        <div class="element">exercise 6</div>
+    </div>
+
+    <div class="container" id="project_grid">
+        <div class="go_back">go back</div>
+        <div class="element" id="project_element">project proposal</div>
+        <div class="element" id="project_element">project prototype</div>
+        <div class="element" id="project_element">prototype documentation</div>
+        <div class="element" id="project_element">project:live</div>
+        <div class="element" id="project_element">project documentation</div>
+    </div>
+
+    <div class="container" id="reflections_grid">
+        <div class="go_back">go back</div>
+        <div class="element">reflection 1</div>
+        <div class="element">reflection 2</div>
+        <div class="element">reflection 3</div>
+        <div class="element">reflection 4</div>
+    </div>
+
+    <div class="container" id="presentation_grid">
+        <div class="go_back">go back</div>
+        <div class="element">presentation slides</div>
+        <div class="element">presentation document</div>
+        <div class="element">presentation sources</div>
+    </div>
+
+    <img src="images/flower_orange.gif" id="bg_image">
+    <img src="images/waves.gif" id="bg_image">
+
     <canvas class="canvas" id="canvas1"></canvas>
     <canvas class="canvas" id="canvas2"></canvas>
     <canvas class="canvas" id="canvas3"></canvas>
     <canvas class="canvas" id="canvas4"></canvas>
     <canvas class="canvas" id="canvas5"></canvas>
     
+    <script src="js/buttons.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
