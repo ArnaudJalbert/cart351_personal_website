@@ -9,13 +9,13 @@ canvas2.width = window.innerWidth;
 canvas2.height = window.innerHeight;
 
 let number1 = 0;
-let scale1 = 10;
+let scale1 = Math.random()*7+10; //10
 
 let number2 = 5;
-let scale2 = 10;
+let scale2 = Math.random()*5+10; //10
 
 let number3 = 7
-let scale3 = 6
+let scale3 = Math.random()*3+3; //6
 
 //---------------------IMAGE ANIMATION----------------------------
 

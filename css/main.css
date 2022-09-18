@@ -86,7 +86,7 @@ body{
     align-self: center;
     z-index: 100;
     width: 100%;
-    opacity: 75%;
+    opacity: 80%;
 
     /* font styling */
     font-family: C800;
@@ -110,10 +110,22 @@ body{
     grid-row-start: 2;
 }
 
+.header:hover{
+    text-shadow: 7px 7px 15px violet;
+    font-size: 125px;
+}
+
 .element{
     font-size: 60px;
     align-self: center;
     font-family: C800;
+}
+
+.element:hover{
+    cursor: pointer;
+    color: blueviolet;;
+    opacity: 100%;
+    text-shadow: 7px 7px 15px violet;
 }
 
 .go_back{
@@ -123,6 +135,14 @@ body{
     
     grid-column:1 / -1;
     grid-row-start: 2;
+}
+
+.go_back:hover{
+    cursor: pointer;
+    opacity: 100%;
+    color: blueviolet;
+    font-size: 125px;
+    text-shadow: 7px 7px 15px violet;
 }
 
 #exercise_grid{
