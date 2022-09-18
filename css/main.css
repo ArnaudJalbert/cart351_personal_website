@@ -119,6 +119,7 @@ body{
     font-size: 60px;
     align-self: center;
     font-family: C800;
+    padding: 20px;
 }
 
 .element:hover{
