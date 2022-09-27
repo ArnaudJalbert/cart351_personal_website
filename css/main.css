@@ -226,3 +226,8 @@ body{
     mix-blend-mode: multiply;
     opacity: 40%;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
