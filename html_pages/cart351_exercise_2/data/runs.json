@@ -1,0 +1,64 @@
+{
+  "runs": [
+    {
+      "date": "2022-10-04",
+      "clock": "17:52",
+      "time": 42.11,
+      "pace": 6.11,
+      "distance": 6.81,
+      "location": "Parc Maisonneuve",
+      "difficulty": "Easy",
+      "weather": "Cloudy",
+      "temperature": 16,
+      "friends": []
+    },
+    {
+      "date": "2022-10-06",
+      "clock": "18:23",
+      "time": 58.08,
+      "pace": 5.45,
+      "distance": 10.08,
+      "location": "Parc Maisonneuve",
+      "difficulty": "Moderate",
+      "weather": "Sunny",
+      "temperature": 12,
+      "friends": ["Étienne"]
+    },
+    {
+      "date": "2022-10-10",
+      "clock": "18:09",
+      "time": 56.46,
+      "pace": 5.4,
+      "distance": 10.0,
+      "location": "Stade Olympique",
+      "difficulty": "Moderate",
+      "weather": "Sunny",
+      "temperature": 14,
+      "friends": []
+    },
+    {
+      "date": "2022-10-11",
+      "clock": "16:30",
+      "time": 56.39,
+      "pace": 5.4,
+      "distance": 10.01,
+      "location": "Hochelaga",
+      "difficulty": "Moderate",
+      "weather": "Rainy",
+      "temperature": 9,
+      "friends": []
+    },
+    {
+      "date": "2022-10-14",
+      "clock": "18:20",
+      "time": 122.39,
+      "pace": 5.46,
+      "distance": 21.15,
+      "location": "Rosemont",
+      "difficulty": "Hard",
+      "weather": "Cloudy",
+      "temperature": 11,
+      "friends": ["Étienne"]
+    }
+  ]
+}
